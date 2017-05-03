@@ -1,0 +1,59 @@
+body{
+    background: #707070;
+}
+
+#canvasBg{
+    display:block;
+    background-color: #FFFFFF;
+    margin: 100px auto 0px;
+    border:#666 1px solid;
+    
+}
+
+#canvasMenu{
+    display:block;
+    /*no background color its transperent */
+    margin: -500px auto 0px;
+    
+}
+#user{
+    top:160px;
+    right:360px;
+    position: absolute;
+    border-radius: 10px ; 
+    width: 180px;
+    border: 3px solid #BADA55;
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+  
+    background: rgba(255,255,255,0.0);
+    color: blue;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    display: none;
+    visibility: hidden;
+   
+}
+#canvasLetterA{
+    display:block;
+    /*no background color its transperent */
+    margin: -510px auto 0px;
+}
+#canvasStar{
+    display:block;
+    /*no background color its transperent */
+    margin: -500px auto 0px;
+}
+#canvasScore{
+    display:block;
+    /*no background color its transperent */
+    margin: -500px auto 0px;
+}
